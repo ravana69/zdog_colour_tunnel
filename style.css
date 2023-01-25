@@ -1,0 +1,30 @@
+body {
+ background-color: #222;
+ overflow: hidden;
+ text-align:center;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+body,
+html {
+ height: 100%;
+ width: 100%;
+ margin: 0;
+ padding: 0;
+}
+.zdog-canvaszdog-canvas {
+  background: transparent;
+	position:absolute;
+	left:0px; top:0px;
+ margin: 0;
+ padding: 0;
+	opacity:.5;
+}
+.render {
+	 margin: 0;
+ padding: 0;
+	position:absolute;
+	z-index:100;
+}
